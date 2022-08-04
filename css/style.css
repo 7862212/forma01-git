@@ -1,0 +1,97 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  color: #252B42;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+input {
+  border-radius: 5px;
+  margin: 0;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.main-form {
+  border: 1px solid #bbbdc7;
+  border-radius: 5px;
+  max-width: 270px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main-form__info {
+  padding: 20px 30px 0 30px;
+}
+
+.info__label-user {
+  color: #294e6a;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.info__input-user {
+  background: #fff;
+  border: 1px solid #bbbdc7;
+  color: #393a3c;
+  padding: 10px;
+  margin-top: 6px;
+  width: 100%;
+}
+.info__label-pass {
+  color: #294e6a;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.info__input-pass {
+  background: #fff;
+  border: 1px solid #bbbdc7;
+  color: #393a3c;
+  padding: 10px;
+  margin-top: 6px;
+  width: 100%;
+}
+
+.action {
+  background: #ececff;
+  border-top: 1px solid #bbbdc7;
+  padding: 30px;
+}
+.action__btn {
+  float: left;
+  background: -webkit-gradient(linear, left top, left bottom, from(#78acd5), to(#294e6a));
+  background: -o-linear-gradient(#78acd5, #294e6a);
+  background: linear-gradient(#78acd5, #294e6a);
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 17px 10px 17px;
+  cursor: pointer;
+}
+.action__label-check {
+  color: #6b7983;
+  font-size: 13px;
+  float: left;
+  margin: 2px 0 0 20px;
+}
+.action__check {
+  margin-right: 3px;
+}
